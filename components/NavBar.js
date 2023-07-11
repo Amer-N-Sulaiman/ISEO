@@ -2,8 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../public/logo1.png'
-
 
 function NavBar() {
   return (
@@ -12,7 +10,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           
           
-          <img src="logo.png" style={{height: '56px'}}/>
+          <img src="logo.png" alt="logo" style={{height: '40px'}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='response-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>

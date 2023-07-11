@@ -37,7 +37,7 @@ export default function Landing() {
         <meta name="description" content="A digital marketing agency that helps businesses grow their brand and increase their sales top notch email marketing at the lowest fees possible"/>
       </Head>
       <NavBar />
-      <main style={{marginTop: '82px'}}>
+      <main style={{marginTop: '66px'}}>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
         style={{
           background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1));"
