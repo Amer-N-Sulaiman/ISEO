@@ -6,6 +6,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Box from '@mui/material/Box';
 
+import Fab from '@mui/material/Fab';
+
 
 
 import { useRouter } from 'next/router'
@@ -18,6 +20,7 @@ import { useRouter } from 'next/router'
 
 import NavBar from "../components/NavBar.js";
 import Footer from "../components/Footer.js";
+import Reviews from "../components/Reviews.js"
 
 import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
 
@@ -250,8 +253,9 @@ export default function Landing() {
 
                 </div> */}
               </div>
-            </div> 
-          </div> 
+            </div>
+          </div>
+          <Reviews />
         </section>
         <section className="relative py-20">
           <div className="flex flex-wrap items-center mt-32">
@@ -374,6 +378,12 @@ export default function Landing() {
             </div>
           </div>
         </section>
+
+        <a href="#booking">
+          <Fab variant="extended" style={{position: 'fixed', bottom: 30, right: 30}} >
+            Book Free Discovery Call
+          </Fab>
+        </a>
         
 
       </main>
