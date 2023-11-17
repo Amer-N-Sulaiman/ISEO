@@ -11,9 +11,9 @@ const Reviews = () => {
                   A word from some of our clients.
             </h3>
             <Carousel>
-                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review1.jpg' />
-                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review2.jpg' />
-                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review3.jpg' />
+                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review1.JPG' />
+                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review2.JPG' />
+                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review3.JPG' />
             </Carousel>
             <Link href="https://business.is-great.org/imperium-seo" underline="none"
                 target="_blank"
