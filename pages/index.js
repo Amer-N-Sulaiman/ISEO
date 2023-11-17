@@ -255,9 +255,10 @@ export default function Landing() {
               </div>
             </div>
           </div>
-          <Reviews />
+          
         </section>
         <section className="relative py-20">
+          <Reviews />
           <div className="flex flex-wrap items-center mt-32">
             <Box className="w-full md:w-5/12 px-4 mr-auto ml-auto" sx={{display: {xs: "block", md: "none"}}}>
                   <img

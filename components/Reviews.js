@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Carousel from 'react-material-ui-carousel'
-import { Box } from '@mui/material';
+import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 
 
 const Reviews = () => {
@@ -10,10 +11,19 @@ const Reviews = () => {
                   A word from some of our clients.
             </h3>
             <Carousel>
-                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review1.png' />
-                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review2.png' />
-                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review3.png' />
+                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review1.jpg' />
+                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review2.jpg' />
+                <img style={{margin: '0 auto'}} alt="seo-review" src='/reviews/review3.jpg' />
             </Carousel>
+            <Link href="https://business.is-great.org/imperium-seo" underline="none"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                    margin: '20px auto',
+                }}
+            >
+                Read More Reviews ...
+            </Link>
         </Box>
     )
 }
