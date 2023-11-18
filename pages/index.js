@@ -362,7 +362,7 @@ export default function Landing() {
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
                   <b style={{fontSize: '1.3em'}}>Who will you be speaking to?</b> <br />
-                  <b>Amer Sulaiman</b>, the founder of Imperium SEO, B.Sc. Computer Science, 5+ years of helping businesses grow with SEO services.
+                  <b>Daniel Hicks</b>, the founder of Imperium SEO, B.Sc. Computer Science, 5+ years of helping businesses grow with SEO services.
                 </p>
               </div>
             </div>
